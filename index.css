@@ -1,0 +1,86 @@
+body{background-color: white;}
+nav{background-color: blue;}
+ul{width: 100%;
+	text-align: center;}
+h1{display: inline; text-align: center;}
+
+p{font-family: franklin-gothic-atf, sans-serif;
+font-weight: 400;
+font-style: normal;
+width: 80%; display: block;margin: auto; padding-top: 3em;border-top: 1px;}
+
+
+
+
+
+footer{display:flex;
+	width:100%;
+	margin: auto;
+	text-align:left;
+	background-color: #97BA9B;}
+form .container{width: 100%;}
+input[type=text], input[type=submit] {
+font-family: franklin-gothic-atf, sans-serif;
+ width: 60%;
+ padding: 12px;
+ display: inline-block;
+ box-sizing: border-box;
+ font-weight:400;
+ font-size: 12px;}
+input[type=submit] {background-color: #E2E8DD;
+ font-family: franklin-gothic-atf, sans-serif;
+ width:30%;
+ color: black;
+ text-align: center;
+ border: none;
+ font-weight:400;
+ font-size: 14px;}
+.bottom{display: flex;
+	display-direction: row;
+	width: 100%;}
+.info{margin-top:3%;
+	margin-bottom:3%;
+	width: 100%;
+	display: flexbox;
+	display-direction: column;
+	margin-left: 5%;}
+.info p{color: white;
+	font-family: franklin-gothic-atf, sans-serif;
+font-weight: 400;
+font-style: normal;
+	margin:auto; 
+	width: 80%;}
+.contact{display: flex; flex-direction: row;padding-top: 5%;}
+.contact i{margin-right:10px; color: white;}
+.subscribe{font-family: franklin-gothic-atf, sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	color:white;}
+
+
+
+
+
+
+/*Global*/
+.container{width: 80%; margin: auto; overflow: hidden;}
+
+/*Header*/
+header{padding-top: 30px; min-height: 70px;text-align: center;}
+header ul{width: 100%;
+	text-align: center;}
+header li{text-align: center; display: inline-block; padding:  0 20px 0 20px;text-decoration: none;}
+header nav{text-align: center;}
+header #navbar{float: left;}
+header #navbar h1{margin: 0;}
+img{width: 80%; margin: auto; display: block;}
+
+#header{font-family: victorian-orchid, serif;
+font-weight: 700;
+font-style: normal;
+}
+
+#navbar{font-family: garvis-pro, serif;
+font-weight: 600;
+font-style: normal;
+}
